@@ -164,7 +164,7 @@ Solución:
 
 ## 👤 Autores
 
-* Hever Alfonso 
+* Hever Andre Alfonso Jimenez
 * Simón Sloan García Villa
 * Moíses Arturo Vergara Garcez 
 
