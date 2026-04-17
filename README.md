@@ -149,14 +149,6 @@ Solución:
 
 * Normalizar `message` y `history` antes de enviarlos al modelo
 
----
-
-## 📈 Mejoras futuras
-
-* 🔍 Implementación de RAG (embeddings + búsqueda semántica)
-* 📊 Soporte para múltiples documentos
-* 🧠 Memoria de conversación optimizada
-* 🌐 Deploy en servidor público
 
 ---
 
