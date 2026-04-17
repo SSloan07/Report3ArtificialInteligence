@@ -2,3 +2,5 @@ pypdf
 gradio
 google-genai
 ipykernel
+python-dotenv>=1.0.0
+google-genai>=0.3.0
