@@ -34,7 +34,8 @@ El sistema sigue este flujo:
 
 ```bash
 .
-├── app.py                # Aplicación principal (Gradio + lógica)
+├── Report.ipynb          # Notebook principal del proyecto
+├── set_kernel.py         # Script para asociar el notebook al kernel correcto
 ├── .env                  # Variables de entorno (API key, modelo)
 ├── attention_is_all_you_need.pdf
 ├── requirements.txt
@@ -67,28 +68,35 @@ pip install -r requirements.txt
 
 ---
 
+### 4. Registrar el entorno como kernel 
+
+```bash
+python -m ipykernel install --user --name=report3env --display-name "Python (report3env)"
+```
+
+### 5. Asociar el notebook al kernel correcto
+
+```bash 
+python set_kernel.py Report.ipynb report3env "Python (report3env)"
+```
+
+> **Importante:** instalar las dependencias con `requirements.txt` no garantiza por sí solo que el notebook use ese mismo entorno.  
+> Por eso se incluye `set_kernel.py`, que permite asociar `Report.ipynb` al kernel correcto (`report3env`) y asegurar que el proyecto se ejecute con las librerías instaladas en el entorno virtual.
+
 ## 🔑 Variables de entorno
 
 Crear archivo `.env`:
 
 ```env
 API_KEY=tu_api_key_de_gemini
-MODELO_ID=gemini-1.5-flash
+MODELO_ID=gemini-2.5-flash-lite
 ```
 
 ---
 
 ## ▶️ Ejecución
 
-```bash
-python app.py
-```
-
-Luego abre:
-
-```
-http://localhost:7860
-```
+Vaya ejecutando cada chunck y cuando llegue al chunck de gradio haga preguntas propias o use los ejemplos pre-cargados
 
 ---
 
