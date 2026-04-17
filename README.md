@@ -164,9 +164,9 @@ Solución:
 
 ## 👤 Autores
 
-Hever Alfonso 
-Simón Sloan García Villa
-Moíses Arturo Vergara Garcez 
+* Hever Alfonso 
+* Simón Sloan García Villa
+* Moíses Arturo Vergara Garcez 
 
 Estudiantes de Ingeniería de Sistemas
 Proyecto académico – Inteligencia Artificial
