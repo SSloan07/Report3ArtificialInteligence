@@ -1,4 +1,4 @@
-# 📄 Experto en "Attention Is All You Need"
+#  Experto en "Attention Is All You Need"
 
 Asistente conversacional basado en el paper *"Attention Is All You Need"* utilizando **Google Gemini (google-genai)** y una interfaz web con **Gradio**.
 
@@ -6,18 +6,18 @@ El sistema permite hacer preguntas sobre el contenido del paper y obtener respue
 
 ---
 
-## 🚀 Características
+##  Características
 
-* 📚 Lectura automática de PDF (`pypdf`)
-* 🤖 Integración con modelos Gemini (`google-genai`)
-* 💬 Interfaz conversacional con Gradio
-* 📌 Respuestas restringidas al contenido del documento
-* 🔄 Soporte para múltiples turnos (chat con historial)
-* ⚡ Streaming de respuestas en tiempo real
+*  Lectura automática de PDF (`pypdf`)
+*  Integración con modelos Gemini (`google-genai`)
+*  Interfaz conversacional con Gradio
+*  Respuestas restringidas al contenido del documento
+*  Soporte para múltiples turnos (chat con historial)
+*  Streaming de respuestas en tiempo real
 
 ---
 
-## 🧠 Arquitectura
+##  Arquitectura
 
 El sistema sigue este flujo:
 
@@ -30,21 +30,21 @@ El sistema sigue este flujo:
 
 ---
 
-## 📂 Estructura del proyecto
+##  Estructura del proyecto
 
 ```bash
 .
-├── Report.ipynb          # Notebook principal del proyecto
-├── set_kernel.py         # Script para asociar el notebook al kernel correcto
-├── .env                  # Variables de entorno (API key, modelo)
-├── attention_is_all_you_need.pdf
-├── requirements.txt
-└── README.md
+ Report.ipynb          # Notebook principal del proyecto
+ set_kernel.py         # Script para asociar el notebook al kernel correcto
+ .env                  # Variables de entorno (API key, modelo)
+ attention_is_all_you_need.pdf
+ requirements.txt
+ README.md
 ```
 
 ---
 
-## ⚙️ Instalación
+##  Instalación
 
 ### 1. Clonar el repositorio
 
@@ -83,7 +83,7 @@ python set_kernel.py Report.ipynb report3env "Python (report3env)"
 > **Importante:** instalar las dependencias con `requirements.txt` no garantiza por sí solo que el notebook use ese mismo entorno.  
 > Por eso se incluye `set_kernel.py`, que permite asociar `Report.ipynb` al kernel correcto (`report3env`) y asegurar que el proyecto se ejecute con las librerías instaladas en el entorno virtual.
 
-## 🔑 Variables de entorno
+##  Variables de entorno
 
 Crear archivo `.env`:
 
@@ -94,13 +94,13 @@ MODELO_ID=gemini-2.5-flash-lite
 
 ---
 
-## ▶️ Ejecución
+##  Ejecución
 
 Vaya ejecutando cada chunck y cuando llegue al chunck de gradio haga preguntas propias o use los ejemplos pre-cargados
 
 ---
 
-## 🧪 Ejemplo de uso
+##  Ejemplo de uso
 
 Preguntas sugeridas:
 
@@ -110,7 +110,7 @@ Preguntas sugeridas:
 
 ---
 
-## ⚠️ Consideraciones técnicas
+##  Consideraciones técnicas
 
 ### 1. Consumo de tokens
 
@@ -127,7 +127,7 @@ El sistema envía el documento completo en cada consulta, lo que puede:
 
 ---
 
-## 🐛 Problemas comunes
+##  Problemas comunes
 
 ### Error: `429 RESOURCE_EXHAUSTED`
 
@@ -152,7 +152,7 @@ Solución:
 
 ---
 
-## 🛠️ Tecnologías usadas
+##  Tecnologías usadas
 
 * Python
 * Gradio
@@ -162,7 +162,7 @@ Solución:
 
 ---
 
-## 👤 Autores
+##  Autores
 
 * Hever Andre Alfonso Jimenez
 * Simón Sloan García Villa
@@ -173,6 +173,6 @@ Proyecto académico – Inteligencia Artificial
 
 ---
 
-## 📜 Licencia
+##  Licencia
 
 Uso académico y educativo.
