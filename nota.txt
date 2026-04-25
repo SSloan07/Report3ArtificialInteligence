@@ -1,0 +1,2 @@
+Se sube el .env por fines educativos. Aunque somos conscientes de que este archivo, normalmente no 
+debería subirse. 
