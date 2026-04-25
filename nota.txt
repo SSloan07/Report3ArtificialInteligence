@@ -1,2 +1,1 @@
-Se sube el .env por fines educativos. Aunque somos conscientes de que este archivo, normalmente no 
-debería subirse. 
+No se sube .env porque en un entorno de producción estos archivos nunca deben subirse. 
